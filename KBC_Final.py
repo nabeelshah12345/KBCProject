@@ -8,7 +8,7 @@ root.geometry("800x500")
 root.title(" ------------------------------------------------   KAUN BANEGA CROREPATI   ------------------------------------------------ ")
 root.config(bg="#0b1a34")
 root.resizable(False, False)
-root.wm_iconbitmap("D:\\coding\\Python\\KBC Project\\images\\NEW_KBC_GOOGLE_ICON.ico")   # always support .ico file
+root.wm_iconbitmap("D:\\coding\\Python\\KBC Project\\KBC-Project\\images\\NEW_KBC_GOOGLE_ICON.ico")   # always support .ico file
 
 
 # questions list
@@ -91,7 +91,7 @@ Label(frame1, text="Welcome to Kaun Banega Crorepati", font=("Times New Roman", 
 
 
 # for import image
-img = Image.open("D:\\coding\\Python\\KBC Project\\images\\kbc pic.png")
+img = Image.open("D:\\coding\\Python\\KBC Project\\KBC-Project\\images\\kbc pic.png")
 img = img.resize((430,370))
 photo = ImageTk.PhotoImage(img)
 
