@@ -1,7 +1,7 @@
 
 from tkinter import *
 from PIL import ImageTk, Image
-import random # for lifeline
+import random   # for lifeline
 
 root = Tk()
 root.geometry("800x500")
@@ -91,7 +91,7 @@ Label(frame1, text="Welcome to Kaun Banega Crorepati", font=("Times New Roman", 
 
 
 # for import image
-img = Image.open("D:\\coding\\Python\\KBC Project\\KBC-Project\\images\\kbc pic.png")
+img = Image.open("D:\\coding\\Python\\KBC Project\\KBC-Project\\images\\kbc pic.png") # .png image
 img = img.resize((430,370))
 photo = ImageTk.PhotoImage(img)
 
@@ -163,7 +163,6 @@ def options_buttons():
                 width=30, bg="gold", command=lambda i=i: check(i))
         b.grid(row=i//2, column=i%2, padx=20, pady=10)
         btns.append(b)
-
 
 options_buttons()
 
